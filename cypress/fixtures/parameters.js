@@ -3,7 +3,7 @@ export const parametersAccountManager = {
   subtitleMainPage: "Zaloguj się do naszego super bezpiecznego systemu!",
   subtitleRegisterPage: "Załóż konto w naszym systemie!",
   formURL: "https://frontendpodyplomowe.github.io/logging",
-  linkText: "Zarejestruj się!",
+  linkText: "Zarejestruj uzytkownika!",
   buttonText: "Zaloguj się!",
   backToLoginText: "Wróć do logowania!",
   testedLogin: "tester",
@@ -13,10 +13,6 @@ export const parametersAccountManager = {
   emptyRegisterMsg: "Musisz podać login i hasło!",
   logoutButton: "Wyloguj się",
 };
-
-export const registerURL = parametersAccountManager.formURL + "/register.html";
-export const loginURL = parametersAccountManager.formURL + "/index.html";
-export const loggedURL = parametersAccountManager.formURL + "/login.html";
 
 export const appURLs = {
   registerURL: parametersAccountManager.formURL + "/register.html",

@@ -12,6 +12,6 @@ module.exports = defineConfig({
     viewportHeight: 720,
     chromeWebSecurity: false,
     watchForFileChanges: false,
-    video: true,
+    video: false,
   },
 });
